@@ -1,4 +1,4 @@
-package Ejercicios.Entidades;
+package Ejercicios.Ejercicio1.Entidades;
 
 import java.util.Scanner;
 

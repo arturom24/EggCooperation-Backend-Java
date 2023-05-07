@@ -1,6 +1,6 @@
-package Ejercicios;
+package Ejercicios.Ejercicio1;
 
-import Ejercicios.Entidades.Libro;
+import Ejercicios.Ejercicio1.Entidades.Libro;
 
 public class Ejercicio1 {
 
