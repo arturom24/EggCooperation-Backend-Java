@@ -14,16 +14,16 @@ public class Cafetera {
         return this.capacidadMaxima;
     }
 
-    public double setCapacidadMaxima(double capacidadMaxima) {
-        return this.capacidadMaxima = capacidadMaxima;
+    public void setCapacidadMaxima(double capacidadMaxima) {
+        this.capacidadMaxima = capacidadMaxima;
     }
 
     public double getCantidadActual() {
         return cantidadActual;
     }
 
-    public double setCantidadActual(double cantidadActual) {
-        return this.cantidadActual = cantidadActual;
+    public void setCantidadActual(double cantidadActual) {
+        this.cantidadActual = cantidadActual;
     }
 
     @Override
