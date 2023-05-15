@@ -11,7 +11,7 @@ public class Cafetera {
     }
 
     public double getCapacidadMaxima() {
-        return this.capacidadMaxima;
+        return capacidadMaxima;
     }
 
     public void setCapacidadMaxima(double capacidadMaxima) {

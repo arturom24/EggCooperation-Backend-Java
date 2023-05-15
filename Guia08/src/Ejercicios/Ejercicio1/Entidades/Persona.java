@@ -19,7 +19,7 @@ public class Persona {
     }
 
     public String getNombre() {
-        return this.nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
@@ -27,7 +27,7 @@ public class Persona {
     }
 
     public int getEdad() {
-        return this.edad;
+        return edad;
     }
 
     public void setEdad(int edad) {
@@ -35,7 +35,7 @@ public class Persona {
     }
 
     public char getSexo() {
-        return this.sexo;
+        return sexo;
     }
 
     public void setSexo(char sexo) {
@@ -43,7 +43,7 @@ public class Persona {
     }
 
     public double getPeso() {
-        return this.peso;
+        return peso;
     }
     
     public void setPeso (double peso) {
