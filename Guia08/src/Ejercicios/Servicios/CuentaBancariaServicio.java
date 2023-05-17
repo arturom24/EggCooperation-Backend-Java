@@ -1,6 +1,6 @@
-package Ejercicios.Ejercicio1.Servicios;
+package Ejercicios.Servicios;
 
-import Ejercicios.Ejercicio1.Entidades.CuentaBancaria;
+import Ejercicios.Entidades.CuentaBancaria;
 import java.util.Scanner;
 
 public class CuentaBancariaServicio {

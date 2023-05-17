@@ -1,7 +1,7 @@
-package Ejercicios.Ejercicio1;
+package Ejercicios;
 
-import Ejercicios.Ejercicio1.Entidades.Persona;
-import Ejercicios.Ejercicio1.Servicios.PesonaServicio;
+import Ejercicios.Entidades.Persona;
+import Ejercicios.Servicios.PesonaServicio;
 
 public class Ejercicio3 {
 

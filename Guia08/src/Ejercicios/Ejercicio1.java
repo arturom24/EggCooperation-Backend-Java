@@ -1,7 +1,7 @@
-package Ejercicios.Ejercicio1;
+package Ejercicios;
 
-import Ejercicios.Ejercicio1.Entidades.CuentaBancaria;
-import Ejercicios.Ejercicio1.Servicios.CuentaBancariaServicio;
+import Ejercicios.Entidades.CuentaBancaria;
+import Ejercicios.Servicios.CuentaBancariaServicio;
 
 public class Ejercicio1 {
 

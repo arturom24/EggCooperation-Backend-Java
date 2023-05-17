@@ -1,4 +1,4 @@
-package Ejercicios.Ejercicio1.Entidades;
+package Ejercicios.Entidades;
 
 public class Persona {
 
