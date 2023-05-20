@@ -1,9 +1,23 @@
 package Ejercicios;
 
+import Ejercicios.Servicios.ArregloServicio;
+
 public class Ejercicio3 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        double[] arregloA = new double[50];
+        double[] arregloB = new double[20];
+        
+        ArregloServicio servicio = new ArregloServicio();
+        
+        servicio.inicializarA(arregloA);
+        servicio.mostrar(arregloA);
+        servicio.ordenar(arregloA);
+        servicio.mostrar(arregloA);
+        servicio.inicializarA(arregloB);
+        servicio.mostrar(arregloB);
+        servicio.inicializarB(arregloA, arregloB);
+        servicio.mostrar(arregloB);
     }
-
+    
 }
