@@ -1,5 +1,6 @@
 package Ejercicios.Entidades;
 
+import java.util.Comparator;
 import java.util.Objects;
 
 public class Pais {
@@ -38,4 +39,13 @@ public class Pais {
         // Generar un código hash basado en el atributo nombre utilizando Objects.hash()
         return Objects.hash(nombre);
     }
+
+    public static class PaisComparator implements Comparator<Pais> {
+
+        @Override
+        public int compare(Pais pais1, Pais pais2) {
+            return pais1.getNombre().compareTo(pais2.getNombre());
+        }
+    }
+
 }
