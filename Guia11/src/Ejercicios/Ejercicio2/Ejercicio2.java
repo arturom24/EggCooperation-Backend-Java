@@ -1,9 +1,12 @@
 package Ejercicios.Ejercicio2;
 
+import Ejercicios.Ejercicio2.Entidades.Juego;
+
 public class Ejercicio2 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        Juego juego = new Juego();
+        juego.iniciarJuego();
     }
 
 }
