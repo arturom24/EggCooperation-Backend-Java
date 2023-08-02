@@ -1,0 +1,24 @@
+body {
+    margin: 20px;
+    line-height: 1.5em;
+    font-size: 0.875em;
+    background-color: #c9e3f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);
+    background: linear-gradient(to right, #85D8CE, #085078);
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #154360;
+    letter-spacing: -1px;
+}
+
+p {
+    letter-spacing: 1;
+    font-size: 16px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
