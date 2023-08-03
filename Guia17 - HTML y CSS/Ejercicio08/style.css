@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+    line-height: 1.5em;
+    font-size: 0.875em;
+    background-color: #F8F9F9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+  text-decoration: none;
+  background: #E53935;
+  color: white;
+  border: 1px outset #CCC;
+  padding: .1em .5em;
+}
+a:hover {
+  background: #FF9D9D;
+  border: none;
+}
+a:visited {
+  border: 1px inset #9E9E9E;
+}
+
