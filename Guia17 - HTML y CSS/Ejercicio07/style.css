@@ -2,11 +2,9 @@ body {
     margin: 20px;
     line-height: 1.5em;
     font-size: 0.875em;
-    background-color: #c9e3f5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: -webkit-linear-gradient(to right, #85D8CE, #085078);
     background: linear-gradient(to right, #85D8CE, #085078);
-
 }
 
 h1,
