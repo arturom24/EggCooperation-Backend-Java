@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia 18 - Ejercicio 1</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            width: 500px;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="text"] {
+            padding: 5px;
+            width: 95%;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Como esta el dia hoy?</h1>
+        <input type="text" id="input" placeholder="Escribe aquí: soleado, nublado, lloviendo">
+        <button id="button">Mostrar estado</button>
+        <p id="mostrarMensaje"></p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const button = document.getElementById("button");
+            const input = document.getElementById("input");
+            const mostrarMensaje = document.getElementById("mostrarMensaje");
+
+            button.addEventListener("click", function () {
+                const estado = input.value;
+                mostrarMensaje.textContent = `El dia de hoy esta ${estado}.`;
+            })
+        });
+    </script>
+</body>
+
+</html>
