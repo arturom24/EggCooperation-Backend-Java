@@ -61,4 +61,4 @@
 
 ---
 
-Creado por Arturo Miranda. Enlace a mi perfil de GitHub: [mi perfil](https://github.com/miracodex)
+Creado por Arturo Miranda. Enlace a mi perfil de GitHub: [mi perfil](https://github.com/arturom24)
